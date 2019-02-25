@@ -1,0 +1,74 @@
+/*!
+Theme Name: Ronin Theme
+Author: Travers
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Ronin Theme is based on Underscores http://underscores.me/, (C) 2012-2017 Automattic, Inc.
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Bootstrap
+2.0 General
+3.0 Variables & Mixins
+4.0 Accessibility
+5.0 Alignments
+6.0 Widgets
+7.0 Media
+8.0 Content
+    8.1 Posts and pages
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Bootstrap
+--------------------------------------------------------------*/
+
+
+@import "../../node_modules/bootstrap-scss/bootstrap";
+
+/*--------------------------------------------------------------
+2.0 Variables & Mixins
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+3.0 General
+--------------------------------------------------------------*/
+@import "site/primary/general";
+@import "site/primary/fontawesome";
+
+/*--------------------------------------------------------------
+4.0 Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+5.0 Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+6.0 Alignments
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+7.0 Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+/*--------------------------------------------------------------
+8.0 Content
+--------------------------------------------------------------*/
+@import "site/content";
+@import "site/header";
+@import "site/footer";
+@import "site/home";

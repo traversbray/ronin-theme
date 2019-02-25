@@ -1,0 +1,32 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+p{
+	margin:0;
+}
+.container {
+    width:100%;
+
+}
+@media (min-width: 1400px) {
+    .container {
+    width: 1380px;
+    }
+}
+h1 {
+	font-family: 'JAPANESE BRUSHIDO';
+	font-size: calc(0.24 * 25vw);
+}
+body {
+
+	background-image: url('/wp-content/themes/Ronin-Theme/assets/img/japanese-mountain.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+@font-face {
+	font-family: 'JAPANESE BRUSHIDO';
+	src: url('assets/fonts/JAPANESE BRUSHIDO.ttf')  format('truetype'), /* Safari, Android, iOS */
+
+  }

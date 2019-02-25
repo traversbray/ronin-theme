@@ -1,0 +1,19 @@
+#pageHome {
+	height: 84vh;
+	.container {
+		height: 100%;
+		.intro-wrapper {
+			display: flex;
+			height: 100%;
+			.intro-text-block {
+				width: 100%;
+				text-align: right;
+				padding: 5em;
+
+				h1 {
+					color:#4b5f5b
+				}
+			}
+		}
+	}
+}
