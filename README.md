@@ -60,6 +60,10 @@ https://github.com/ahmadawais/WPGulp
 
 In the terminal go to the root folder of the Ronin Theme
 
+Make sure you have `Node.js` and `npm` installed first!
+
+In case you are an absolute beginner to the world of `Node.js`, JavaScript, and `npm` packages — all you need to do is go to  Node's site [download + install](https://nodejs.org/en/download/) Node on your system. This will install both `Node.js` and `npm`, i.e., node package manager — the command line interface of Node.js.
+
 1. Create a package.json file
 ```console
 > npm init
