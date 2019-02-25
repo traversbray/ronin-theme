@@ -5,7 +5,9 @@
   <h1><code>Ronin Theme</code></h1>
   
 </div>
-===
+
+
+
 
 This is a modern blank WordPress theme based on a little bit of everything including: WPGulp, Underscores, and Sass.
 
